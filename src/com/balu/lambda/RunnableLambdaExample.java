@@ -1,3 +1,5 @@
+package com.balu.lambda;
+
 public class RunnableLambdaExample {
 
     public static void main(String[] args) {

@@ -1,3 +1,5 @@
+package com.balu.lambda;
+
 import java.util.Comparator;
 
 public class ComparatorLambdaExample {
