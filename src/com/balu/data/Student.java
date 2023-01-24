@@ -70,4 +70,8 @@ public class Student {
         this.gender = gender;
         this.activities = activities;
     }
+
+    public void printListOfActivities(){
+        System.out.println(activities);
+    }
 }
