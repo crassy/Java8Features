@@ -22,6 +22,7 @@ public class BiFunctionExample {
     });
 
     public static void main(String[] args) {
+        System.out.println(biFunction.apply(StudentDatabase.getAllStudents(),PredicateStudentExample.studentPredicateGPA));
         System.out.println(biFunction.apply(StudentDatabase.getAllStudents(),PredicateStudentExample.studentPredicateGradeLevel));
     }
 }
