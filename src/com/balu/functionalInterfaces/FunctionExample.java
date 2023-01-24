@@ -7,7 +7,7 @@ public class FunctionExample {
     static final String JAVA8 = "java8";
     static final String DEFAULT = "default";
 
-    static Function<String, String> toUpperFunction = (name) -> name.toUpperCase();
+    static Function<String, String> toUpperFunction = String::toUpperCase;
     static Function<String, String> addDefaultString = (name) -> name.concat(DEFAULT);
 
     public static void main(String[] args) {
